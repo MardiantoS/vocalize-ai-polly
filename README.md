@@ -122,6 +122,11 @@ my-polly-app/
 
 ### Local Development
 
+The backend: API Gateway, Lambda function, and related IAM permission needs to be created first:
+```bash
+amplify push    # Deploy backend resources
+```
+
 Run the application locally:
 ```bash
 npm start
@@ -133,7 +138,6 @@ The application will be available at http://localhost:3000
 
 Deploy the application to AWS:
 ```bash
-amplify push    # Deploy backend resources
 amplify publish # Deploy frontend and backend
 ```
 
