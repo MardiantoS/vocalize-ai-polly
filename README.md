@@ -182,6 +182,12 @@ The Lambda function requires permissions to access Amazon Polly, which are confi
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Citation
+
+If you use this code or algorithm in your work, please cite it as follows:
+
+This project uses [vocalize-ai-polly](https://github.com/MardiantoS/vocalize-ai-polly) by MardiantoS.
+
 ## Acknowledgments
 
 AWS team for the comprehensive services used in this project
